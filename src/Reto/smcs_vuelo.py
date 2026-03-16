@@ -66,7 +66,7 @@ for tramo in range(1, 6):
     print("1. headwind  (viento en contra)")
     print("2. tailwind  (viento a favor)")
     print("3. crosswind (viento cruzado o nulo)")
-    opcion_viento = int(input("Ingrese la opcion (1, 2 o 3): "))
+    opcion_viento = input("Ingrese la opcion (1, 2 o 3): ")
     
     if opcion_viento == "1":
         tipo_viento = "headwind"
