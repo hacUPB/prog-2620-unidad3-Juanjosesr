@@ -66,7 +66,7 @@ for tramo in range(1, 6):
     print("1. headwind  (viento en contra)")
     print("2. tailwind  (viento a favor)")
     print("3. crosswind (viento cruzado o nulo)")
-    opcion_viento = float(input("Ingrese la opcion (1, 2 o 3): "))
+    opcion_viento = int(input("Ingrese la opcion (1, 2 o 3): "))
     
     if opcion_viento == "1":
         tipo_viento = "headwind"
@@ -87,7 +87,7 @@ for tramo in range(1, 6):
         vuelo_completado = False
         break
  
-    # Si no hay emergencia, actualizar el valor de combustible
+    # Si no hay emergencia, actualizar valor de combustible
     combustible_actual = combustible_proyectado
  
     # Mostrar informacion del tramo
