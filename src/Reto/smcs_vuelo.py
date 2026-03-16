@@ -104,4 +104,4 @@ if vuelo_completado == True:
 else:
     print("  RESULTADO: VUELO ABORTADO - EMERGENCIA DE COMBUSTIBLE")
     print("  Combustible al abortar: ", combustible_actual, "kg")
-    3
+    
